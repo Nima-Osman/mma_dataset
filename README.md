@@ -33,27 +33,37 @@ All dataset-based plots are in the appendices. Notable plots follow.
 ### Figure 1:
 This figure illustrates the last contact month, with May having the most clients contacted, and December the least. The month may impact call outcomes.
 
-![Figure 1: Last Contact Month](image_link)
+<p align="center">
+<img src="images\mma_1.png"  alt="Centered Image" title="Entity-Relationship Diagram" width="500">
+</p>
 
 ### Figure 2:
 Displays client contact frequency in the previous campaign. The sharp drop after one or two contacts could affect their willingness to open long-term accounts. Research suggests buyers may say no up to 4 times before saying yes, but few clients were contacted 5 times (acumen.sg, 2022).
 
-![Figure 2: Previous Campaign Contact Frequency](image_link)
+<p align="center">
+<img src="images\mma_2.png"  alt="Centered Image" title="Entity-Relationship Diagram" width="500">
+</p>
 
 ### Figure 3:
 Most clients are married. Marital status's impact on long-term deposit account willingness is uncertain. Financial stability, goals like property purchase, and family planning are more likely indicators for account opening (Husejinovic et al., 2020).
 
-![Figure 3: Marital Status](image_link)
+<p align="center">
+<img src="images\mma_3.png"  alt="Centered Image" title="Entity-Relationship Diagram" width="500">
+</p>
 
 ### Figure 4:
 Shows client job distribution, with admin and blue-collar jobs being the most common. Students are the least represented group. Offering more benefits to students could attract more of them as clients.
 
-![Figure 4: Job Distribution](image_link)
+<p align="center">
+<img src="images\mma_4.png"  alt="Centered Image" title="Entity-Relationship Diagram" width="500">
+</p>
 
 ### Figure 5:
 Euribor is the rate at which European banks lend money to each other. This bank's Euribor 3-month rate, comprising the current figure, varies among clients due to factors like credit score, loan details, and their relationship with the bank. Most clients have around a 5% interest rate, with a significant group falling between <1% and 2%.
 
-![Figure 5: Euribor 3-month Rate](image_link)
+<p align="center">
+<img src="images\mma_5.png"  alt="Centered Image" title="Entity-Relationship Diagram" width="500">
+</p>
 
 ## 3.2 Correlations
 
@@ -71,7 +81,9 @@ The heatmap indicates mainly weak correlations among variables. Notable strong c
 - Poutcome and previous: Strong (0.85).
 - Poutcome and pdays: Strong negative (-0.74).
 
-![Figure 6: Heatmap of Correlation Coefficients](image_link)
+<p align="center">
+<img src="images\mma_6.png"  alt="Centered Image" title="Entity-Relationship Diagram" width="500">
+</p>
 
 ## 3.3 Assessing the Relevance of Variables
 
@@ -80,21 +92,27 @@ Initially, **emp.var.rate** and **nr.employed** were excluded as they pertain to
 ### Figure 7:
 Demonstrates the outcome of the previous marketing campaign.
 
-![Figure 7: Outcome of Previous Marketing Campaign](image_link)
+<p align="center">
+<img src="images\mma_7.png"  alt="Centered Image" title="Entity-Relationship Diagram" width="500">
+</p>
 
 **Day_of_week** values are evenly distributed across the working week, showing little variation in the day clients were last contacted. Consequently, this variable is unlikely to impact the final client outcome and will be excluded from the model.
 
 ### Figure 8:
 A plot showing the day of the week a client was last contacted.
 
-![Figure 8: Day of the Week Client Was Last Contacted](image_link)
+<p align="center">
+<img src="images\mma_8.png"  alt="Centered Image" title="Entity-Relationship Diagram" width="500">
+</p>
 
 **Credit Default:** A vast majority of clients report no credit default. Since almost none in this dataset have credit default, it's a constant/near-constant variable, offering no useful model information (Hair et al., 2019).
 
 ### Figure 9:
 Plot demonstrating client credit default status.
 
-![Figure 9: Credit Default Status](image_link)
+<p align="center">
+<img src="images\mma_9.png"  alt="Centered Image" title="Entity-Relationship Diagram" width="500">
+</p>
 
 ## 3.4 Conclusion
 
