@@ -17,6 +17,7 @@ DDDM plays a crucial role in organisational growth and is demonstrated in the Po
 ### Objective:
 To build a predictive model for identifying clients likely to open long-term deposit accounts.
 
+
 ---
 
 ## 2. Methodology
@@ -29,6 +30,11 @@ It's crucial to thoroughly analyse and visualise data before model development. 
 
 Both **R** and **Python** were used for creating histograms and scatterplots to display the data. Histograms show categorical variables' distribution, making it easy to interpret. Scatterplots visualise numerical values, displaying each data point and identifying outliers while showing data concentration.  
 All dataset-based plots are in the appendices. Notable plots follow.
+
+[R coding file - part 1](Part1_code.R)
+[Python coding file - part 2](Part2_code.ipynb)
+
+
 
 ### Figure 1:
 This figure illustrates the last contact month, with May having the most clients contacted, and December the least. The month may impact call outcomes.
