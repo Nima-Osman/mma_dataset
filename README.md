@@ -1,4 +1,4 @@
-# MMA Marketing
+# Telemarking Dataset
 
 ## 1. Introduction
 Data-driven decision-making (DDDM) leverages data, facts, and metrics to guide strategic decisions. Despite its potential, a 2018 IDC study revealed that 70% of organisations fail in their digital transformations due to a lack of a supportive data culture (Forth et al., 2020).
